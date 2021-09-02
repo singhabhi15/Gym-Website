@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABHI fitness club </title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS reset */
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/pic.jpg.jfif');
+        background-repeat: no-repeat;
+        background-size: 1500px 700px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 35px;
+        top: 20px;
+        font-size: 14px;
+        text-align: center;
+
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 35px;
+        top: 20px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 24px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .left img {
+        width: 95px;
+
+    }
+
+    .btn {
+        margin: 0px 2px;
+        background-color: black;
+        color: white;
+        padding: 3px 10px;
+        border: 2px solid gray;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .btn:hover {
+        background-color: rgb(58, 55, 55);
+    }
+
+    .container {
+        margin: 55px 76px;
+        padding: 75px;
+        width: 36%;
+        border-radius: 24px
+    }
+
+    .formgroup input {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 7px auto;
+        font-size: 22px;
+        border-radius: 7px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        margin: 20px auto;
+        width: 96%;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!--left for logo-->
+            <img src="img/large.png" alt="">
+
+
+        </div>
+        <div class="mid">
+            <!--mid for navigation bar-->
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Cotact us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <!--right for buttons like searching-->
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best GYM of Jaipur now</h1>
+        <form action="no-action.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Phone no.">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
